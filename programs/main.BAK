@@ -1,0 +1,30 @@
+***Graphs MAIN.prg
+
+
+*VARIABLES*********************************************************
+PUBLIC version
+
+version = 0.1
+
+
+*******************************************************************
+
+
+SET DEFAULT TO "C:\Users\chris_000\Documents\Visual FoxPro Projects\graph"
+
+DO FORM forms\main.scx
+READ EVENTS
+
+
+
+PROCEDURE Exit
+	
+	*Compiled**
+	*CLEAR READ
+	*QUIT
+	***********
+	
+	CANCEL
+	RETURN
+	
+ENDPROC
